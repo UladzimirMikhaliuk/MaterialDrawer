@@ -40,8 +40,11 @@ android {
 dependencies {
     implementation project(':materialdrawer')
 
+    // AppCompatResources
+    implementation "androidx.appcompat:appcompat-resources:${versions.appcompat}"
+
     // kotlin
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${versions.kotlin}"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${versions.kotlin}"
 
     // used to provide out of the box icon font support. simplifies development,
     // and provides scalable icons. the core is very very light
