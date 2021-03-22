@@ -3,9 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/material_drawer_account_header"
     android:layout_width="match_parent"
-    android:paddingTop="40dp"
-
-    android:layout_height="150dp"
+    android:layout_height="@dimen/material_drawer_account_header_height_compact"
     android:clickable="true"
     android:fitsSystemWindows="false"
     android:focusable="true"
