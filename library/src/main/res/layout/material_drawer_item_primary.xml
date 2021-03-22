@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
 
     android:paddingStart="@dimen/material_drawer_vertical_padding"
-    android:paddingLeft="24dp"
+    android:paddingLeft="28dp"
     android:paddingEnd="@dimen/material_drawer_vertical_padding"
     android:paddingRight="@dimen/material_drawer_vertical_padding">
 
@@ -33,13 +33,11 @@
         android:layout_marginStart="5dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:fontFamily="sans-serif-medium"
         android:gravity="center_vertical|start"
         android:lines="1"
         android:singleLine="true"
         android:textDirection="anyRtl"
         android:textSize="@dimen/material_drawer_item_primary_text"
-        app:fontFamily="@font/roboto_medium"
         app:layout_constraintBottom_toTopOf="@id/material_drawer_description"
         app:layout_constraintEnd_toStartOf="@+id/material_drawer_badge_container"
         app:layout_constraintStart_toEndOf="@id/material_drawer_icon"
